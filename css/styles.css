@@ -1,3 +1,7 @@
+:root {
+  --font-color: #fff;
+}
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -19,7 +23,7 @@ body {
   margin: 0;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   background-color: #fff;
   color: #222;
 }
@@ -84,6 +88,80 @@ select:-webkit-autofill:focus {
 .main-content {
   flex-grow: 1;
 }
+
+
+.global-wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 570px;
+  height: 640px;
+  background-image: url(../img/bg-picture.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-content {
+  padding-top: 55px;
+padding-left: 60px;
+}
+
+.hero-heading-text {
+font-size: 14px;
+line-height: 17px;
+color: var(--font-color);
+margin: 0;
+border: 2px solid #fff;
+border-radius: 41px;
+padding: 5px 15px;
+}
+
+.hero-heading {
+}
+.hero-info {
+}
+.order {
+}
+.registration {
+}
+.registration-page-heading {
+}
+.registration-page-form {
+}
+.form {
+}
+.form-fields {
+}
+.form-groups-wrapper {
+}
+.form-group {
+}
+.form-field {
+}
+.registration-page-form-submit {
+}
+.button {
+}
+.button-primary {
+}
+.requierements {
+}
+.terms-services {
+}
+
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
